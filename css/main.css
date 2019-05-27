@@ -20,6 +20,7 @@
     height: 100%;
     font-family: 'Lora', serif;
     overflow: hidden;
+    height: 100%;
 }
 
 /*
@@ -305,12 +306,13 @@ body {
 
 h1 {
   font-size: 40px;
+  font-weight: 700;
 }
 
 .logo {
   width: 200px;
   height: 200px;
-  margin-top: -200px;
+  margin-top: -100px;
 }
 
 .content {
@@ -327,10 +329,10 @@ h1 {
 .background {
   background-image: url(../img/fiddle-leaf.png);
   background-repeat: no-repeat;
-  background-position: center top 380px;
-  background-size: 400px;
-  height: 800px;
-  width: 400px;
+  background-position: bottom;
+  background-size: contain;
+  height: 50%;
+  width: 340px;
   position: absolute;
   bottom: 0;
   z-index: -99;
