@@ -336,7 +336,7 @@ h1 {
   background-position: bottom;
   background-size: contain;
   height: 45%;
-  width: 340px;
+  width: 100%;
   position: absolute;
   bottom: 0;
   z-index: -99;
